@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header - Nine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        header {
+            width: 100%;
+            height: 1024px;
+        }
+
+        .hero-img {
+            height: 703px;
+            background-image: url(./images/dreamcatcher-apocalypse.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+        }
+
+        .hero-content {
+            padding: 80px 64px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero-info {
+            width: 600px;
+        }
+
+        .hero-title {
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+
+        a {
+            width: 136px;
+            height: 48px;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-youtube {
+            background-color: #c4302b;
+            color: white;
+        }
+
+        .btn-spotify {
+            background-color: #1DB954;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-img"></div>
+
+        <div class="hero-content">
+            <div class="hero-title">
+                <h1>Dreamcatcher</h1>
+            </div>
+
+            <div class="hero-info">
+                <p>
+                    A bold and emotional visual concept inspired by Dreamcatcher’s unique identity, captivating atmosphere, and unforgettable presence.
+                </p>
+
+                <div class="hero-buttons">
+                    <a target="_blank" class="btn-youtube" href="https://music.youtube.com/channel/UC4RAA8DTjbTlmZy561mmq4Q?si=rDhR80hv6Ghskfhg">YouTube Music</a>
+                    <a target="_blank" class="btn-spotify" href="https://open.spotify.com/intl-pt/artist/5V1qsQHdXNm4ZEZHWvFnqQ?si=RRE-5JodQp2iQKKUNsQHZw">Spotify</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
